@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayExercises
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=msg\ array
+comment2.target=void\ printArray(java.lang.String,\ int[])
+comment3.params=array
+comment3.target=int\ sum(int[])
+comment4.params=array
+comment4.target=int[]\ repeat(int[])
+numComments=5

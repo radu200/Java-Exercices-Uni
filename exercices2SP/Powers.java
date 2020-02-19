@@ -12,7 +12,13 @@ public class Powers {
     
     public static void printPowers(int n) {
         System.out.println("Powers of " + n);
+         final int P = 15;
+         long result = 1;
         
-        // INSERT YOUR CODE HERE
+         for(int i = 1; i <= P; i++ ){
+             result *= n;
+             System.out.println(result);
+         }
+  
     }    
 }

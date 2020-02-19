@@ -15,7 +15,15 @@ public class BalancedParentheses {
                              + "parentheses balanced");
     }
     public static boolean isBalanced(String s) {    
-         
-        // INSERT YOUR CODE HERE
+        int counter = 0;        
+        for(int i = 0; i < s.length()  && counter >= 0; i++){
+           char c = s.charAt(i); 
+           if(c == '(' ){
+             counter++;
+          } else if(c == ')') {
+             counter--;
+          }
+        }
+        return counter == 0;        
     }    
 }

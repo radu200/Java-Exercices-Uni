@@ -36,13 +36,23 @@ public class ArrayExercises
     }    
     public static int[] repeat(int[] array) 
     {
-       int[] newArray = new int[3 * array.length];
-   
-        for (int i = 0; i < newArray.length; i++) {
-            newArray[i] = array[i % array.length];
-        }
-                 
+       int[] newArray = new int[array.length];
+
+       
+       for(int i = 0; i < 3; i++){
+        for(int j = i; j < 3 ; j++){
+
+        //    newArray[i] = array[i % array.length];
+           System.out.println("newarray" + j);
+        } 
+    }
+        
+        // System.out.println("newarray" + Arrays.toString(newArray));
+     
          return newArray;
-                 
+         
+
+        // INSERT YOU CODE HERE
+        
     }    
 }
